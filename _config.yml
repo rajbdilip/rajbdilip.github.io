@@ -1,5 +1,6 @@
 title: diliprajbaral.com
 description: Software engineering notes, lessons, and opinions.
+image: "/assets/images/og-default.jpg"
 url: "https://diliprajbaral.com"
 baseurl: ""
 permalink: /blog/:title/
@@ -15,6 +16,13 @@ author:
   name: Dilip Raj Baral
   bio: Software engineer writing about systems, development, and lessons learned.
   location: ""
+  avatar: "/assets/images/og-default.jpg"
+social:
+  name: Dilip Raj Baral
+  links:
+    - "https://x.com/rajbdilip"
+    - "https://github.com/rajbdilip"
+    - "https://www.linkedin.com/in/diliprajbaral/"
 footer:
   links:
     - label: "GitHub"
@@ -32,6 +40,9 @@ footer:
 logo: "/assets/images/logo-256.png"
 masthead_title: ""
 breadcrumbs: false
+twitter:
+  username: "rajbdilip"
+  card: "summary_large_image"
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
