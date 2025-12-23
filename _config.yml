@@ -39,6 +39,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 locale: "en"
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "diliprajbaral-com"
 defaults:
   - scope:
       path: ""
@@ -46,6 +50,7 @@ defaults:
     values:
       show_date: true
       related: true
+      comments: true
 tag_archive:
   type: liquid
   path: /tags/
