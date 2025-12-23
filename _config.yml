@@ -46,3 +46,6 @@ defaults:
     values:
       show_date: true
       related: true
+tag_archive:
+  type: liquid
+  path: /tags/
