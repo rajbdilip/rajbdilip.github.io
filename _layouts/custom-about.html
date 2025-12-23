@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div id="main" role="main" class="about-main">
+  <article class="page about-page" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}
+      <header class="page__header">
+        <h1 id="page-title" class="page__title" itemprop="headline">
+          <a href="{{ page.url | relative_url }}" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+        </h1>
+      </header>
+    {% endif %}
+
+    <div class="page__inner-wrap">
+      <section class="page__content" itemprop="text">
+        {% if page.hero_image %}
+          <figure class="about-hero">
+            <img src="{{ page.hero_image | relative_url }}" alt="{{ page.hero_image_alt | default: page.title }}">
+          </figure>
+        {% endif %}
+        {{ content }}
+      </section>
+    </div>
+  </article>
+</div>

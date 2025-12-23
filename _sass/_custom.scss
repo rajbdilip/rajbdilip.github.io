@@ -252,6 +252,43 @@ $hero-background-color: $background-color !default;
 }
 
 /* ==========================================================================
+   About layout (layout: custom-about)
+   ========================================================================== */
+.about-main {
+  margin-inline: auto;
+  width: 100%;
+  padding: $site-gutter;
+}
+
+@media (min-width: $site-max-width) {
+  .about-main {
+    max-width: $site-max-width;
+  }
+}
+
+.about-page .page__inner-wrap {
+  margin-top: 1.5rem;
+  margin-inline: auto;
+  max-width: 65ch;
+}
+
+.about-page .page__header {
+  margin-inline: auto;
+  max-width: 65ch;
+}
+
+.about-hero {
+  margin: 0 0 1.5rem;
+}
+
+.about-hero img {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  border-radius: 8px;
+}
+
+/* ==========================================================================
    Footer theme toggle
    ========================================================================== */
 .theme-toggle {
