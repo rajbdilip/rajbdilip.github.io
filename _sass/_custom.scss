@@ -47,6 +47,15 @@ $site-gutter: 1em !default;
   margin-block: 1.5rem 1rem;
 }
 
+.page__comments {
+  margin-inline: auto;
+  max-width: 65ch;
+}
+
+.page__comments #disqus_thread {
+  max-width: 100%;
+}
+
 /* ==========================================================================
    Blog archive grid (layout--archive)
    ========================================================================== */
