@@ -3,6 +3,7 @@ title: "Topic Modelling using LDA with MALLET"
 date: 2017-06-04
 layout: single
 classes: wide
+excerpt: "Intro to MALLET and a practical guide to building topic models from text."
 author_profile: false
 read_time: true
 categories:

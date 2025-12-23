@@ -3,6 +3,7 @@ title: "Tendencies-based collaborative filtering algorithm"
 date: 2016-12-06
 layout: single
 classes: wide
+excerpt: "Notes on tendencies-based collaborative filtering and why it is efficient and accurate."
 author_profile: false
 read_time: true
 categories:

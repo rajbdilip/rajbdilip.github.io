@@ -3,6 +3,7 @@ title: "Facebook PHP SDK 4.0 - Re-asking declined permissions"
 date: 2014-07-16
 layout: single
 classes: wide
+excerpt: "How to re-request declined Facebook Login permissions with the PHP SDK 4.0 helper method."
 author_profile: false
 read_time: true
 categories:

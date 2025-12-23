@@ -3,6 +3,7 @@ title: "Social Media Integration into CiviCRM - CiviSocial"
 date: 2016-10-01
 layout: single
 classes: wide
+excerpt: "Summary of my Google Summer of Code project building a CiviCRM social media integration extension."
 author_profile: false
 read_time: true
 categories:

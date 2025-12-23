@@ -3,6 +3,7 @@ title: "Text search using Stochastic Diffusion Search"
 date: 2016-11-06
 layout: single
 classes: wide
+excerpt: "Overview of Stochastic Diffusion Search and a simple algorithm outline for text search."
 author_profile: false
 read_time: true
 categories:
