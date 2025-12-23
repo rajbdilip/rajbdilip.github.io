@@ -50,10 +50,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 locale: "en"
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-BQTLT1DFDB"
 comments:
   provider: "disqus"
   disqus:
