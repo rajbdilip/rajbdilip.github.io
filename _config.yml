@@ -4,6 +4,33 @@ url: "https://diliprajbaral.com"
 baseurl: ""
 permalink: /blog/:title/
 markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+name: Dilip Raj Baral
+author:
+  name: Dilip Raj Baral
+  bio: Software engineer writing about systems, development, and lessons learned.
+  location: ""
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/rajbdilip"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/diliprajbaral/"
+    - label: "X"
+      icon: "fab fa-x-twitter"
+      url: "https://x.com/rajbdilip"
+    - label: "Stack Overflow"
+      icon: "fab fa-stack-overflow"
+      url: "https://stackoverflow.com/users/1175279/dilip-raj-baral"
+logo: ""
+masthead_title: ""
+breadcrumbs: true
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
