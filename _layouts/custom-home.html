@@ -25,8 +25,8 @@ layout: default
   <article class="home-entry">
     <h2 class="home-section__title">Recent posts</h2>
     <ul class="entry__list">
-      {% assign home_recent_posts_limit = page.recent_posts_limit | default: 5 %}
-      {% for post in site.posts limit: home_recent_posts_limit %}
+      {% assign home_posts_limit = page.posts_limit | default: page.recent_posts_limit | default: 5 %}
+      {% for post in site.posts limit: home_posts_limit %}
         {% assign teaser = post.header.teaser | default: post.header.image %}
         <li class="entry__list-item">
           <article class="entry">

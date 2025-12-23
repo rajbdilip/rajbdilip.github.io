@@ -1,5 +1,5 @@
 /* Variables */
-$site-max-width: 80em !default;
+$site-max-width: 1280px !default;
 $site-gutter: 1em !default;
 
 /* ==========================================================================
@@ -158,6 +158,10 @@ $hero-background-color: $background-color !default;
 .home-hero .home-entry__summary p {
   margin-top: 0;
   margin-bottom: 0.75rem;
+}
+
+.home-hero .home-entry__summary {
+  max-width: 45ch;
 }
 
 .home-hero .home-entry__summary p:first-of-type {
