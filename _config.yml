@@ -1,4 +1,4 @@
-title: diliprajbaral.com
+title: "Dilip Raj Baral"
 description: Software engineering notes, lessons, and opinions.
 image: "/assets/images/og-default.jpg"
 url: "https://diliprajbaral.com"
@@ -38,7 +38,7 @@ footer:
       icon: "fab fa-stack-overflow"
       url: "https://stackoverflow.com/users/1175279/dilip-raj-baral"
 logo: "/assets/images/logo-256.png"
-masthead_title: ""
+masthead_title: "diliprajbaral.com"
 breadcrumbs: false
 twitter:
   username: "rajbdilip"
