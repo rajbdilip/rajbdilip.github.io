@@ -1,5 +1,5 @@
 ---
-title: "Setting up a self-managed web server with HestiaCP"
+title: "Self-Hosted Web Server with HestiaCP"
 date: 2024-06-12
 excerpt: "A quick, repeatable setup guide for a self-managed web server using HestiaCP on Ubuntu or Debian."
 tags:
