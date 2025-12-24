@@ -1,7 +1,8 @@
+{% assign cache_bust = site.cache_bust | default: site.time | date: "%s" %}
 <script>
   (function () {
-    var lightHref = "{{ '/assets/css/main.css' | relative_url }}";
-    var darkHref = "{{ '/assets/css/main-dark.css' | relative_url }}";
+    var lightHref = "{{ '/assets/css/main.css' | relative_url }}?v={{ cache_bust }}";
+    var darkHref = "{{ '/assets/css/main-dark.css' | relative_url }}?v={{ cache_bust }}";
     var link = document.querySelector('link[rel="stylesheet"][href*="/assets/css/main"]');
     var stored = localStorage.getItem('theme');
     var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -33,8 +34,8 @@
 
     var setTheme = function (choice) {
       var link = document.querySelector('link[rel="stylesheet"][href*="/assets/css/main"]');
-      var lightHref = "{{ '/assets/css/main.css' | relative_url }}";
-      var darkHref = "{{ '/assets/css/main-dark.css' | relative_url }}";
+      var lightHref = "{{ '/assets/css/main.css' | relative_url }}?v={{ cache_bust }}";
+      var darkHref = "{{ '/assets/css/main-dark.css' | relative_url }}?v={{ cache_bust }}";
       var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
       var next = choice === 'auto' ? (prefersDark ? 'dark' : 'light') : choice;
       if (link) {
