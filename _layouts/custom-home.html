@@ -2,24 +2,9 @@
 layout: default
 ---
 
-<section class="home-hero">
-  <div class="home-main">
-    <header class="home-entry__header">
-      <div class="home-entry__header-inner">
-        <div class="home-entry__group">
-          <div class="home-entry__summary">
-            {% if page.excerpt %}
-              {{ page.excerpt | markdownify }}
-            {% endif %}
-            {% if page.subtitle %}
-              <p>{{ page.subtitle }}</p>
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    </header>
-  </div>
-</section>
+{% if page.hero_title or page.hero_subtitle %}
+  {% include hero-block.html title=page.hero_title subtitle=page.hero_subtitle %}
+{% endif %}
 
 <div id="main" role="main" class="home-main">
   <article class="home-entry">

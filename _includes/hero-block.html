@@ -1,0 +1,12 @@
+<section class="hero-block">
+  <div class="hero-block__container">
+    <div class="hero-block__inner">
+      {% if include.title %}
+        <h1 class="hero-block__title">{{ include.title }}</h1>
+      {% endif %}
+      {% if include.subtitle %}
+        <p class="hero-block__subtitle">{{ include.subtitle }}</p>
+      {% endif %}
+    </div>
+  </div>
+</section>

@@ -50,6 +50,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 locale: "en"
+collections:
+  notes:
+    output: true
+    permalink: /notes/:title/
 comments:
   provider: "disqus"
   disqus:
@@ -62,6 +66,12 @@ defaults:
       show_date: true
       related: true
       comments: true
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      show_date: true
 tag_archive:
   type: liquid
   path: /tags/

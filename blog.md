@@ -1,13 +1,11 @@
 ---
-layout: archive
+layout: custom-collection
 title: Blog
 permalink: /blog/
 entries_layout: grid
 collection: posts
 sidebar: false
+classes: layout--archive
+hero_title: "Blog"
+hero_subtitle: "Long-form thoughts, deep dives, and full stories."
 ---
-Latest blog posts.
-
-<div class="grid__wrapper">
-{% include documents-collection.html collection='posts' sort_by='date' sort_order='reverse' type='grid' %}
-</div>

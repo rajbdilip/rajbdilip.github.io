@@ -32,6 +32,8 @@
 
 ## Commit & Pull Request Guidelines
 - No strict commit convention; prefer short, imperative subjects (e.g., “Update hero copy”).
+- Include description to detail the changes made
+- Cite Codex CLI as co-author
 - PRs should include a brief summary and note local preview status.
 - For visual changes, include a screenshot or describe the manual check performed.
 
